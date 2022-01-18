@@ -17,6 +17,7 @@ vmap <C-c> :w !pbcopy<CR><CR>
 autocmd VimEnter * NERDTreeToggle
 autocmd BufWinEnter * NERDTreeMirror
 :inoremap jj <Esc>
+cabbrev bterm botright terminal 
 
 set tabstop=2
 set shiftwidth=2
